@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <link rel="stylesheet" media="all" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <style type="text/css">
+      body {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .boxes {
+        display:table;
+        width: 100%;
+        height: 100%;
+      }
+
+      .box {
+        display: table-cell;
+        vertical-align:middle;
+        text-align: center;
+        line-height: 13em;
+      }
+
+      .box1 {
+        background: orange;
+      }
+
+      .box2 {
+        background: green;
+      }
+
+      .box3 {
+        background: yellow;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div style="position: absolute; display: block; left: 0px; right: 0px; top: 0px; height: 60px; background-color: orange">
+      Header
+    </div>
+    <div style="position: absolute; display: block; left: 0px; right: 0px; top: 60px; bottom: 0px; background-color: red; padding: 15px">
+      <div style="background-color: white">
+        <div class="boxes">
+          <div class="box box1" style="width: 200px">Box 1</div>
+          <div class="box box2" style="padding: 10px">
+            <div style="display: block; background-color: blue; height: 100%">
+              <div style="display: table; width: 100%; height: 100%">
+                <div style="display: table-row; height: 200px">
+                  <div style="display: table-cell; background-color: cyan; padding: 10px">
+                    <div style="display: block; background-color: orange; height: 180px; overflow: hidden">
+                      Test - this will never overflow
+                      <br/>
+                      Test - this will never overflow<br/>
+                      Test - this will never overflow<br/>
+                      Test - this will never overflow<br/>
+                      Test - this will never overflow<br/>
+                      Test - this will never overflow<br/>
+                      Test - this will never overflow<br/>
+                      Test - this will never overflow<br/>
+                    </div>
+                  </div>
+                </div>
+                <div style="display: table-row; height: auto">
+                  <div style="display: table-cell; background-color: cyan; padding: 10px">
+                    <div style="display: block; background-color: blue; overflow: auto; height: 100%">
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                      Test again<br/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box box3" style="width: 200px; padding: 30px">
+            <div style="display: block; background-color: pink; overflow: auto; height: 100%">
+              Box 3<br/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

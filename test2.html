@@ -1,0 +1,141 @@
+<html>
+
+<head>
+	<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<script type="text/javascript" src="gcspread.sheets.all.9.40.20161.0.min.js"></script>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css"></link>
+</head>
+
+<body>
+	<div class="main-content main-content-padding table gray padding-10px">
+		<div class="table-row">
+			<div class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+					<div class="collapse navbar-collapse fixed">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Home</a>
+							</li>
+							<li><a href="#about">About</a>
+							</li>
+							<li><a href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="table-row">
+			<!-- <div class="table-cell center cf0e68c"> -->
+			<div class="table-cell center cf0e68c">Controller 1</div>
+			<div class="table-cell center cf0e68c">Controller 2</div>
+			<div class="table-cell center cf0e68c">Controller 3</div>
+			<!-- </div> -->
+		</div>
+		<div class="table-row">
+			<!-- <div class="table-cell center cd672e2 margin-10px"> -->
+			<div class="table-cell center cd672e2 padding-10px">
+				<button type="button" class="btn btn-default">Default</button>
+			</div>
+			<div class="table-cell center cd672e2 padding-10px">
+				<button type="button" class="btn btn-primary">Primary</button>
+			</div>
+			<div class="table-cell center cd672e2 padding-10px">
+				<button type="button" class="btn btn-success">Success</button>
+			</div>
+			<!-- </div> -->
+		</div>
+		<!-- <div class="table-row full-size">
+			<div class="table-cell full-size center margin-lr-10px">
+				<div class="col-lg-4 blue">
+					<div class="full-size">
+						<div class="body-content-wrapper">
+							<div class="body-content padding-10px">
+								<div class="green" style="line-height: 13em">
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 red">
+					<div class="full-size">
+						<div class="table full-size">
+							<div class="table-cell table-row cf0e68c" style="height: 60px;">
+								<div class="col-lg-6 margin-tb-10px">
+									<input class="form-control input-sm" id="inputsm" type="text"></input>
+								</div>
+								<div class="col-lg-6 margin-tb-10px">
+									<input class="form-control input-sm" id="inputsm" type="text"></input>
+								</div>
+							</div>
+							<div class="table-cell table-row">
+								<div class="body-content-wrapper">
+									<div class="body-content padding-10px green">
+										<div id="ss"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 yellow">
+					<div class="full-size">
+						<div class="body-content-wrapper">
+							<div class="body-content padding-10px">
+								<div class="green" style="line-height: 13em">
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+									<div>scrollable content</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+	</div>
+	<script>
+		window.onload = function() {
+			var spread = new GcSpread.Sheets.Spread(document.getElementById('ss'), {
+				sheetCount: 1
+			});
+		};
+	</script>
+</body>
+
+</html>
