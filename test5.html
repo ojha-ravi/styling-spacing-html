@@ -1,0 +1,174 @@
+<html>
+
+<head>
+	<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<script type="text/javascript" src="gcspread.sheets.all.9.40.20161.0.min.js"></script>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css"></link>
+</head>
+
+<body>
+	<div class="main-content table main-content-padding gray">
+		<div class="table-row">
+			<div class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+					<div class="collapse navbar-collapse fixed">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Home</a>
+							</li>
+							<li><a href="#about">About</a>
+							</li>
+							<li><a href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="table-row">
+			<div class="w33 table-cell center cf0e68c">Controller 1</div>
+			<div class="w33 table-cell center cf0e68c">Controller 2</div>
+			<div class="w33 table-cell center cf0e68c">Controller 3</div>
+		</div>
+		<div class="table-row">
+			<div class="w33 table-cell center cd672e2">
+				<button type="button" class="btn btn-default">Default</button>
+			</div>
+			<div class="w33 table-cell center cd672e2">
+				<button type="button" class="btn btn-primary">Primary</button>
+			</div>
+			<div class="w33 table-cell center cd672e2">
+				<button type="button" class="btn btn-success">Success</button>
+			</div>
+		</div>
+		<div class="table-row full-size green">
+			<div class="w33 table-cell cyan padding-10px">
+				<div class="green full-size center overflow-auto">
+					<div class="line-height13">
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+					</div>
+				</div>
+			</div>
+			<div class="w33 table-cell center yellow padding-10px">
+				<div class="green full-size overflow-auto">
+					<div class="line-height13">
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+					</div>
+				</div>
+			</div>
+			<div class="w33 table-cell center blue padding-10px">
+				<div class="green full-size overflow-auto">
+					<div class="line-height13">
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+						<div> Test again</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		window.onload = function() {
+			var spread = new GcSpread.Sheets.Spread(document.getElementById('ss'), {
+				sheetCount: 1
+			});
+		};
+	</script>
+</body>
+
+</html>

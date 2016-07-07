@@ -16,9 +16,10 @@ body {
   right: 0px;
   position: absolute;
   height: 100%;
+  padding: 60px 10px 10px 10px;
 }
 .main-content-padding {
-  padding: 60px 0px 0px 0px;
+  padding: 60px 10px 10px 10px;
 }
 .body-content-wrapper {
   height: 100%;
@@ -82,11 +83,17 @@ body {
 .cyan {
   background-color: cyan;
 }
+.orange {
+  background-color: orange;
+}
 .cf0e68c {
   background-color: #f0e68c;
 }
 .cd672e2 {
   background-color: #d672e2;
+}
+.c89caca {
+ background-color: #89caca;
 }
 .center {
   text-align: center;
@@ -105,4 +112,38 @@ body {
 }
 .padding-10px {
   padding: 10px;
+}
+
+.w33 {
+	width: 33%;
+}
+
+.w25 {
+	width: 25%;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.line-height13 {
+	line-height: 13em;
+}
+.line-height2 {
+	line-height: 2em;
+}
+.overflow-auto {
+	overflow: auto;
+}
+.overflow-hidden {
+	overflow: hidden;
+}
+.text-13 {
+	font-size: 13;
+}
+.display-block {
+	display: block;
+}
+.height-auto {
+	height: auto;
 }
